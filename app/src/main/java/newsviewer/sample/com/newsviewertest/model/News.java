@@ -38,6 +38,7 @@ public class News {
             //The thumbnail URL is stored in a JSONArray named "multimedia"
             //So we have to dig a bit deeper to get that item
 
+            //The Times API seems to sometime return an empty string for the thumbnail url
             if (obj.get("multimedia").equals("")) {
                 setThumbnailUrl("");
             } else {
