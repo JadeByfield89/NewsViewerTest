@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="120dp"
+    android:background="#fff"
+
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:background="@drawable/news_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:textSize="14sp"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:text="@string/news_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvUrl"
+        android:textSize="14sp"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:text="@string/news_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
